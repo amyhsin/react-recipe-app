@@ -8,8 +8,8 @@ import Recipe from './components/Recipe';
 
 
 const App = () => {
-  const APP_ID = 'dcc49ea3';
-  const APP_KEY = 'b9b9fb67c4aaccd3507dd73a911a4218';
+  const APP_ID = ''; // insert your ID
+  const APP_KEY = ''; // insert your key
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
